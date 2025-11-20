@@ -1,5 +1,4 @@
 package entities;
-
 import java.time.LocalDate;
 
 public class Vuelo {
@@ -36,6 +35,7 @@ public class Vuelo {
     public LocalDate getFechaLlegada() {
         return fechaLlegada;
     }
+
     public Vuelo(int id, String nombreVuelo, String empresa, String lugarSalida, String lugarLlegada, LocalDate fechaSalida, LocalDate fechaLlegada) {
         this.id = id;
         this.nombreVuelo = nombreVuelo;
