@@ -13,22 +13,7 @@ public class Vuelo {
     public Vuelo(){
 
     }
-
-    public int getId() {
-        return id;
-    }
-    public String getNombreVuelo() {
-        return nombreVuelo;
-    }
-    public String getEmpresa() {
-        return empresa;
-    }
-    public String getLugarSalida() {
-        return lugarSalida;
-    }
-    public String getLugarLlegada() {
-        return lugarLlegada;
-    }
+    
     public LocalDate getFechaSalida() {
         return fechaSalida;
     }

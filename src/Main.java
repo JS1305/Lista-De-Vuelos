@@ -24,6 +24,6 @@ public class Main {
         vuelos.add(new Vuelo(9, "H009-V", "LATAM Airlines", "Bogota", "Santiago de chile", LocalDate.of(2025, 3, 18), LocalDate.of(2025, 3, 18)));
         vuelos.add(new Vuelo(10, "H0010-V", "Qatar Airways", "París", "Ciudad de México", LocalDate.of(2025, 3, 3), LocalDate.of(2025, 3, 3)));
 
-        System.out.println(filtro(vuelos,fechaInicio,fechaFin));
+        System.out.println("Acontinuacion encontraras los detalles de los vuelos ordenados por fecha desde "+ fechaInicio + " hasta " + fechaFin + " \n" + " \n" + filtro(vuelos,fechaInicio,fechaFin));
     }
 }
