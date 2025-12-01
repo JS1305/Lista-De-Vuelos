@@ -36,6 +36,45 @@ El proyecto incluye:
 
 4. Modificar las variables `fechaInicio` y `fechaFin` en el `Main` para probar distintos filtros:
 
+
+# Flight Management - Java Technical Test
+
+## Description
+
+This project corresponds to the **second technical test**, developed in **Java**, which implements **filtering** and **sorting** operations for flights using **Streams** and utility classes (`Utils`).
+
+The system allows:
+
+- Filtering flights based on a **date range** (*startDate* and *endDate*).
+- Sorting flights by **departure date**.
+- Returning results in a readable format, displaying flights one below the other.
+
+The project includes:
+
+- `Flight` class with its attributes and access methods.
+- `Filter` class in the `utils` package for filtering and sorting.
+- `Main` class to execute and test the filtering, with **10 example flights**.
+
+---
+
+## Requirements
+
+- Java 17 or higher (compatible with Streams and `LocalDate` API).
+- Recommended IDE: IntelliJ IDEA, Eclipse, or similar.
+
+---
+
+## Execution
+
+1. Clone or download the repository:  
+   git clone https://github.com/JS1305/Gestion-Clientes
+
+2. Open the project in your preferred IDE.
+
+3. Run the `Main` class.
+
+4. Modify the `startDate` and `endDate` variables in `Main` to test different filters:
+
 ```java
 LocalDate fechaInicio = LocalDate.of(2024,1,1);
 LocalDate fechaFin = LocalDate.of(2026,12,31);
